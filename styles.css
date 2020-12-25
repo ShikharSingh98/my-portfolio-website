@@ -1,23 +1,31 @@
 body {
   margin: 0rem;
   padding: 0rem;
+  color: white;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1.5px solid rgba(34, 36, 38, 0.15);
-  box-shadow: 0 1px rgba(34, 36, 38, 0.15);
   padding: 0.7rem 0rem;
-  background-color: #6a00f4;
-  color: #fdfffc;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar-brand-name {
   font-family: 'Fredoka One', cursive;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 5rem;
   cursor: pointer;
 }
@@ -34,4 +42,68 @@ body {
   text-transform: uppercase;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+#home {
+  background-color: #004e64;
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 74%);
+  height: 100vh;
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hello-text {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
+  margin: 0rem 5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.hello-text :first-child {
+  font-size: 3.5rem;
+}
+
+.hello-text :last-child {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.social-links {
+  margin: 0rem 5rem;
+}
+
+.social-links-item {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.social-links-hashnode {
+  width: 21px;
+}
+
+.my-image {
+  position: absolute;
+  top: 140px;
+  right: 200px;
+  border: 1px solid rgb(194, 193, 193);
+  box-shadow: 0px 1px 2px grey;
+  background-color: white;
+  padding: 0.8rem 0.8rem 2rem;
+}
+
+.my-image img {
+  width: 300px;
 }
