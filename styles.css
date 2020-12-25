@@ -44,7 +44,7 @@ body {
   cursor: pointer;
 }
 
-#home {
+#introduction {
   background-color: #004e64;
   clip-path: polygon(0 0, 100% 0, 100% 40%, 0 74%);
   height: 100vh;
