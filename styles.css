@@ -52,12 +52,12 @@ body {
 }
 
 #introduction {
-  height: 100vh;
+  height: 80vh;
 }
 
 .introduction-container {
   height: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 74%);
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%);
   background: #000046; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -119,16 +119,19 @@ body {
   width: 300px;
 }
 
-#projects {
+.section-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.text-blue {
+  color: #107f9e;
+}
+
 .section-heading {
-  color: #004e64;
   font-family: 'Fredoka One', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   margin-bottom: 5rem;
 }
@@ -162,6 +165,7 @@ body {
 
 .card-text {
   height: 100px;
+  line-height: 1.5;
 }
 
 .card-links {
@@ -175,4 +179,25 @@ body {
   padding: 0.4rem 0.8rem;
   border-radius: 5px;
   margin-right: 1rem;
+}
+
+#blogs {
+  margin-top: 5rem;
+  clip-path: polygon(76% 13%, 100% 0, 100% 100%, 0 100%, 0 0);
+
+  padding: 5rem 0;
+
+  background: #1a2980; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #26d0ce,
+    #1a2980
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
 }
