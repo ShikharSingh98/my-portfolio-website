@@ -23,43 +23,133 @@
     <nav class="navbar">
       <span class="navbar-brand-name">&lt;shikhar /&gt;</span>
       <div class="navbar-links">
-        <span class="navbar-links-item">Skills</span>
-        <span class="navbar-links-item">Projects</span>
-        <span class="navbar-links-item">Blogs</span>
+        <a href="#projects" class="navbar-links-item">Projects</a>
+        <a href="#blogs" class="navbar-links-item">Blogs</a>
       </div>
     </nav>
 
     <main class="container">
+      <!-- Introduction Section -->
+
       <section id="introduction">
-        <div class="hello-text">
-          <span>Hi 🖐</span>
-          <span>I'm Shikhar Singh</span>
-          <span>Aspire to become a Front-End Developer 👨‍💻</span>
+        <div class="introduction-container">
+          <div class="hello-text">
+            <span>Hi 🖐</span>
+            <span>I'm Shikhar Singh</span>
+            <span>Aspire to become a Front-End Developer 👨‍💻</span>
+          </div>
+          <div class="social-links">
+            <a
+              class="social-links-item"
+              href="https://in.linkedin.com/in/shikhar-singh-468ba21b8"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              class="social-links-item"
+              href="https://github.com/ShikharSingh98"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://hashnode.com/@Shikhar" target="_blank"
+              ><img
+                class="social-links-hashnode"
+                src="./images/hashnode-logo.png"
+            /></a>
+          </div>
         </div>
-        <div class="social-links">
-          <a
-            class="social-links-item"
-            href="https://in.linkedin.com/in/shikhar-singh-468ba21b8"
-            target="_blank"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <a
-            class="social-links-item"
-            href="https://github.com/ShikharSingh98"
-            target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="https://hashnode.com/@Shikhar" target="_blank"
-            ><img
-              class="social-links-hashnode"
-              src="./images/hashnode-logo.png"
-          /></a>
+        <!--Image  -->
+
+        <div class="my-image">
+          <img src="./images/Profile Image.png" />
         </div>
       </section>
-      <div class="my-image">
-        <img src="./images/Profile Image.png" />
-        <!-- <img src="./images/11-removebg-preview.png" /> -->
-      </div>
+
+      <!-- Skills Section -->
+      <section id="projects">
+        <h2 class="section-heading">Projects</h2>
+        <div class="cards-container">
+          <article class="card">
+            <img class="card-image" src="./images/projects/surfmovies.png" />
+            <div class="card-content">
+              <h2 class="card-title">SurfMovies</h2>
+              <p class="card-text">
+                Let's user search movies,discover movies by genres and also can
+                get all information about movies like rating,trailer,cast and
+                also recommended movies.
+              </p>
+              <div class="card-links">
+                <a
+                  class="card-links-item"
+                  href="https://surfmoviesbyshikharsingh.netlify.app/"
+                  target="_blank"
+                  >Try it out <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  class="card-links-item"
+                  href="https://github.com/ShikharSingh98/SurfMovies"
+                  target="_blank"
+                  >GitHub <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <img
+              class="card-image"
+              src="./images/projects/covid-19 Tracker.png"
+            />
+            <div class="card-content">
+              <h2 class="card-title">Covid-19 Tracker</h2>
+              <p class="card-text">
+                Web application is to spread awareness about COVID-19 pandemic.
+                It provides statistics of COVID-19 cases for global as well as
+                for countries
+              </p>
+              <div class="card-links">
+                <a
+                  class="card-links-item"
+                  href="https://covid19trackerbyshikharsingh.netlify.app/"
+                  target="_blank"
+                  >Try it out <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  class="card-links-item"
+                  href="https://github.com/ShikharSingh98/Covid-19-Tracker"
+                  target="_blank"
+                  >GitHub <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <img
+              class="card-image"
+              src="./images/projects/rock-paper-scissors.png"
+            />
+            <div class="card-content">
+              <h2 class="card-title">Rock Paper Scissors</h2>
+              <p class="card-text">
+                Web application that let you play the famous childhood game.
+              </p>
+              <div class="card-links">
+                <a
+                  class="card-links-item"
+                  href="https://rockpaperscissorsbyshikharsingh.netlify.app/"
+                  target="_blank"
+                  >Play Game <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  class="card-links-item"
+                  href="https://github.com/ShikharSingh98/Rock-Paper-Scissors"
+                  target="_blank"
+                  >GitHub <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
   </body>
 </html>

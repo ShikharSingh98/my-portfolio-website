@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0rem;
   padding: 0rem;
-  color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -28,6 +32,7 @@ body {
   font-size: 1.5rem;
   margin-left: 5rem;
   cursor: pointer;
+  color: white;
 }
 
 .navbar-links {
@@ -42,12 +47,17 @@ body {
   text-transform: uppercase;
   font-size: 1.2rem;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 #introduction {
-  background-color: #004e64;
-  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 74%);
   height: 100vh;
+}
+
+.introduction-container {
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 74%);
   background: #000046; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -69,6 +79,7 @@ body {
   margin: 0rem 5rem;
   padding-top: 5rem;
   padding-bottom: 2rem;
+  color: white;
 }
 
 .hello-text :first-child {
@@ -106,4 +117,62 @@ body {
 
 .my-image img {
   width: 300px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-heading {
+  color: #004e64;
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 3rem;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: #107f9e;
+  text-transform: uppercase;
+}
+
+.card-text {
+  height: 100px;
+}
+
+.card-links {
+  display: flex;
+}
+
+.card-links-item {
+  text-decoration: none;
+  background-color: #1cb5e0;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  margin-right: 1rem;
 }
