@@ -179,6 +179,11 @@ body {
   .navbar-links-item {
     font-size: 0.8rem;
   }
+
+  #introduction {
+    padding: 6rem 0;
+  }
+
   .hello-text {
     font-size: 1.7rem;
   }
