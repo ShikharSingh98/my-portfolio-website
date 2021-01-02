@@ -138,6 +138,7 @@ body {
 
 .cards-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -145,7 +146,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 350px;
-  margin: 0 3rem;
+  margin: 3rem;
 }
 
 .card-image {
