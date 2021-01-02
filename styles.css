@@ -77,8 +77,13 @@ body {
   width: 21px;
 }
 
+.my-image {
+  background-color: white;
+  padding: 0.8rem 0.8rem 2rem;
+}
+
 .my-image img {
-  width: 380px;
+  width: 340px;
 }
 
 .section-container {
@@ -197,8 +202,13 @@ body {
     width: 12px;
   }
 
+  .my-image {
+    background-color: white;
+    padding: 0.3rem 0.3rem 0.4rem;
+  }
+
   .my-image img {
-    width: 130px;
+    width: 100px;
   }
 
   .section-heading {
